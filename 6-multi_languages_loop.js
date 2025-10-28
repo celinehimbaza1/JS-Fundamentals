@@ -1,2 +1,8 @@
 const msg = ['C is fun', 'Python is cool', 'JavaScript is amazing'];
-console.log(msg.join('\n'));
+let output = '';
+
+for (const m of msg) {
+    output += m + '\n';
+}
+
+console.log(output.trim());
